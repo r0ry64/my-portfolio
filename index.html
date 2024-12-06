@@ -37,14 +37,21 @@
                 <h3>Project 1</h3>
                 <button class="toggle-details">Show Details</button>
                 <div class="project-details" style="display: none;">
-                    <p>This is a description of Project 1.</p>
+                    <p>This is Project 1!</p>
                 </div>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
                 <button class="toggle-details">Show Details</button>
                 <div class="project-details" style="display: none;">
-                    <p>This is a description of Project 2.</p>
+                    <p>This is Project 2!!</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <button class="toggle-details">Show Details</button>
+                <div class="project-details" style="display: none;">
+                    <p>This is Project 3!!!</p>
                 </div>
             </div>
         </div>
@@ -54,9 +61,23 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: rorybeatz@gmail.com</p>
-        <p>Discord: r0ry64</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <small class="error-message" id="nameError"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <small class="error-message" id="emailError"></small>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <small class="error-message" id="messageError"></small>
+
+            <button type="submit">Send Message</button>
+        </form>
     </section>
+
 
     <!-- Footer Section -->
     <footer>
