@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -31,8 +32,24 @@
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <p>There is nothing here yet, please check again soon :)</p>
+        <div class="project-gallery">
+            <div class="project">
+                <h3>Project 1</h3>
+                <button class="toggle-details">Show Details</button>
+                <div class="project-details" style="display: none;">
+                    <p>This is a description of Project 1.</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <button class="toggle-details">Show Details</button>
+                <div class="project-details" style="display: none;">
+                    <p>This is a description of Project 2.</p>
+                </div>
+            </div>
+        </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact">
