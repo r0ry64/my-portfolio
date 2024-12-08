@@ -132,3 +132,7 @@ footer {
 #contact button:hover {
     background-color: darkblue;
 }
+
+html {
+    scroll-behavior: smooth;
+}
